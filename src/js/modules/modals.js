@@ -42,7 +42,7 @@ const modals = () => {
 
     bindModal('.phone_link', '.popup', '.popup .popup_close');
 
-    showModelByTime('.popup', 3000);
+    showModelByTime('.popup', 60000);
 };
 
 export default modals;
