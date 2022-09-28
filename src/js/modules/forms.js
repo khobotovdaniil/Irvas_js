@@ -47,7 +47,7 @@ const forms = (state) => {
                 .then(res => {
                     console.log(res);
                     statusMessage.textContent = message.success;
-                    
+
                 })
 
                 .catch(() => statusMessage.textContent = message.failure)
@@ -59,7 +59,7 @@ const forms = (state) => {
                 });
         });
     });
-
+    
 };
 
 export default forms;
