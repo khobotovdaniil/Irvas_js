@@ -9,6 +9,7 @@ const images = () => {
     imgPopup.style.justifyContent = 'center';
     imgPopup.style.alignItems = 'center';
     imgPopup.style.display = 'none';
+    bigImage.style.maxHeight = '90%';
 
     imgPopup.appendChild(bigImage);
 
